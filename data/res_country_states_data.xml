@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="py01" model="res.country.state">
+      <field name="code">01</field>
+      <field name="name">Concepción</field>
+      <field name="country_id" ref="base.py"/>
+    </record>
+    <record id="py02" model="res.country.state">
+      <field name="code">02</field>
+      <field name="name">San Pedro</field>
+      <field name="country_id" ref="base.py"/>
+    </record>
+    <record id="py03" model="res.country.state">
+      <field name="code">03</field>
+      <field name="name">Cordillera</field>
+      <field name="country_id" ref="base.py"/>
+    </record>
+    <record id="py04" model="res.country.state">
+      <field name="code">04</field>
+      <field name="name">Guairá</field>
+      <field name="country_id" ref="base.py"/>
+    </record>
+    <record id="py05" model="res.country.state">
+      <field name="code">05</field>
+      <field name="name">Caaguazú</field>
+      <field name="country_id" ref="base.py"/>
+    </record>
+    <record id="py06" model="res.country.state">
+      <field name="code">06</field>
+      <field name="name">Caazapá</field>
+      <field name="country_id" ref="base.py"/>
+    </record>
+    <record id="py07" model="res.country.state">
+      <field name="code">07</field>
+      <field name="name">Itapúa</field>
+      <field name="country_id" ref="base.py"/>
+    </record>
+    <record id="py08" model="res.country.state">
+      <field name="code">08</field>
+      <field name="name">Misiones</field>
+      <field name="country_id" ref="base.py"/>
+    </record>
+    <record id="py09" model="res.country.state">
+      <field name="code">09</field>
+      <field name="name">Paraguarí</field>
+      <field name="country_id" ref="base.py"/>
+    </record>
+    <record id="py10" model="res.country.state">
+      <field name="code">10</field>
+      <field name="name">Alto Paraná</field>
+      <field name="country_id" ref="base.py"/>
+    </record>
+    <record id="py11" model="res.country.state">
+      <field name="code">11</field>
+      <field name="name">Central</field>
+      <field name="country_id" ref="base.py"/>
+    </record>
+    <record id="py12" model="res.country.state">
+      <field name="code">12</field>
+      <field name="name">Ñeembucú</field>
+      <field name="country_id" ref="base.py"/>
+    </record>
+    <record id="py13" model="res.country.state">
+      <field name="code">13</field>
+      <field name="name">Amambay</field>
+      <field name="country_id" ref="base.py"/>
+    </record>
+    <record id="py14" model="res.country.state">
+      <field name="code">14</field>
+      <field name="name">Canindeyú</field>
+      <field name="country_id" ref="base.py"/>
+    </record>
+    <record id="py15" model="res.country.state">
+      <field name="code">15</field>
+      <field name="name">Presidente Hayes</field>
+      <field name="country_id" ref="base.py"/>
+    </record>
+    <record id="py16" model="res.country.state">
+      <field name="code">16</field>
+      <field name="name">Boquerón</field>
+      <field name="country_id" ref="base.py"/>
+    </record>
+    <record id="py17" model="res.country.state">
+      <field name="code">17</field>
+      <field name="name">Alto Paraguay</field>
+      <field name="country_id" ref="base.py"/>
+    </record>
+    
+    
+</odoo>

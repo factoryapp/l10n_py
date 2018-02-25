@@ -13,6 +13,7 @@
     'data':[
         'data/l10n_py_chart_data.xml',
         'data/account_tax_data.xml',
+        'data/res_country_states_data.xml',
         'data/account_chart_template_data.yml',
     ],
 }
