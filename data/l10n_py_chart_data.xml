@@ -2052,6 +2052,15 @@
         <field name="chart_template_id" ref="py_chart_template"/>
     </record>
 
+    <record id="51131" model="account.account.template">
+        <field name="name">Compras de Mercaderías</field>
+        <field name="code">5.1.1.31</field>
+        <field name="reconcile" eval="True"/>
+        <field name="parent_id" ref="511"/>
+        <field ref="account.data_account_type_expenses" name="user_type_id"/>
+        <field name="chart_template_id" ref="py_chart_template"/>
+    </record>
+
     <record id="512" model="account.account.template">
         <field name="name">Gastos de Ventas</field>
         <field name="code">5.1.2</field>
@@ -2710,8 +2719,8 @@
     <record id="py_chart_template" model="account.chart.template">
         <field name="property_account_receivable_id" ref="1131"/>
         <field name="property_account_payable_id" ref="2111"/>
-        <field name="property_account_expense_categ_id" ref="11411"/>
-        <field name="property_account_income_categ_id" ref="11412"/>
+        <field name="property_account_expense_categ_id" ref="51131"/>
+        <field name="property_account_income_categ_id" ref="41121"/>
         <field name="expense_currency_exchange_account_id" ref="5143"/>
         <field name="income_currency_exchange_account_id" ref="4135"/>
     </record>
